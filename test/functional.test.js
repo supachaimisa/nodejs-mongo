@@ -1,6 +1,6 @@
 const chai = require("chai");
 const { after, before, describe, it } = require("mocha");
-const { functionDataFormatFail, functionDataFormatSuccess, functionIsNotThrowErr, functionIsThrowErr } = require('./functionaltest')
+const { functionDataFormatFail, functionDataFormatSuccess, functionIsNotThrowErr, functionIsThrowErr } = require('../utils/functionaltest')
 chai.should();
 const expect = chai.expect;
 describe("Testing unit functional test", () => {
