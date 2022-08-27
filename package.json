@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.9.0",
+    "mongoosh": "^0.0.7"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "mon": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supachaimisa/nodejs-mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supachaimisa/nodejs-mongo/issues"
+  },
+  "homepage": "https://github.com/supachaimisa/nodejs-mongo#readme"
+}
